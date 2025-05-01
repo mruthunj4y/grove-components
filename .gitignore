@@ -1,0 +1,18 @@
+# Distribution
+build/
+
+# elm-package generated files
+elm-stuff
+
+# Dependency directories
+node_modules
+
+# yarn problems
+yarn-error.log
+
+# Desktop Services Store on macOS
+.DS_Store
+
+# sass build artifacts
+src/**/*.css
+/sample-app/src/css-build
