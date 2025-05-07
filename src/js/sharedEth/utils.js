@@ -63,47 +63,18 @@ function providerType(provider) {
 
 function providerTypeId(provider) {
   if (provider && provider.isTally) {
-    return 5;
+    return 0;
   } else {
-    return 3;
+    return 1;
   }
 }
 
 function networkFromId(id) {
   switch (id) {
     case 0:
-      return 'olympic';
-
-    case 1:
       return 'mainnet';
-
-    case 2:
-      return 'morden';
-
-    case 3:
-      return 'ropsten';
-
-    case 4:
-      return 'rinkeby';
-
-    case 5:
-      return 'goerli';
-
-    case 8:
-      return 'ubiq';
-
-    case 42:
-      return 'kovan';
-
-    case 77:
-      return 'sokol';
-
-    case 99:
-      return 'core';
-
-    case 999:
-      return 'development';
-
+    case 1:
+      return 'xrplevm';
     default:
       'development';
   }

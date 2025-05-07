@@ -14,16 +14,7 @@
   &.green {
     background-color: $color_supply;
   }
-  &.kovan {
-    background-color: $color_kovan;
-  }
-  &.rinkeby {
-    background-color: $color_rinkeby;
-  }
-  &.goerli {
-    background-color: $color_goerli;
-  }
-  &.ropsten {
-    background-color: $color_ropsten;
+  &.xrplevm {
+    background-color: $color_xrplevm;
   }
 }

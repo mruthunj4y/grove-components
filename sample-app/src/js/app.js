@@ -73,19 +73,13 @@ window.addEventListener('load', function () {
 
   const DATA_PROVIDERS = {
     development: 'http://localhost:8545',
-    goerli: 'https://goerli-eth.grove.finance',
-    rinkeby: 'https://rinkeby-eth.grove.finance',
-    kovan: 'https://kovan-eth.grove.finance',
-    ropsten: 'https://ropsten-eth.grove.finance',
+    xrplevm: 'https://xrplevm.grove.finance',
     mainnet: 'https://mainnet-eth.grove.finance',
   };
 
   const NETWORK_MAP = {
     mainnet: 1,
-    ropsten: 3,
-    rinkeby: 4,
-    goerli: 5,
-    kovan: 42,
+    xrplevm: 1449000,
     development: 999,
   };
 

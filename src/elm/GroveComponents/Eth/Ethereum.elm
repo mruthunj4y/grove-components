@@ -96,41 +96,8 @@ etherscanUrl network urlValue =
         MainNet ->
             Just ("https://etherscan.io/" ++ linkType ++ "/" ++ linkValue)
 
-        Rinkeby ->
-            Just ("https://rinkeby.etherscan.io/" ++ linkType ++ "/" ++ linkValue)
-
-        Kovan ->
-            Just ("https://kovan.etherscan.io/" ++ linkType ++ "/" ++ linkValue)
-
-        Ropsten ->
-            Just ("https://ropsten.etherscan.io/" ++ linkType ++ "/" ++ linkValue)
-
-        Goerli ->
-            Just ("https://goerli.etherscan.io/" ++ linkType ++ "/" ++ linkValue)
-
-        Polygon ->
-            Just ("https://polygonscan.com/" ++ linkType ++ "/" ++ linkValue)
-
-        Mumbai ->
-            Just ("https://mumbai.polygonscan.com/" ++ linkType ++ "/" ++ linkValue)
-
-        Arbitrum ->
-            Just ("https://arbiscan.io/" ++ linkType ++ "/" ++ linkValue)
-
-        ArbitrumGoerli ->
-            Just ("https://goerli.arbiscan.io/" ++ linkType ++ "/" ++ linkValue)
-
-        Optimism ->
-            Just ("https://optimistic.etherscan.io/" ++ linkType ++ "/" ++ linkValue)
-
-        OptimismGoerli ->
-            Just ("https://goerli-optimism.etherscan.io/" ++ linkType ++ "/" ++ linkValue)
-
-        Base ->
-            Just ("https://basescan.org/" ++ linkType ++ "/" ++ linkValue)
-
-        BaseGoerli ->
-            Just ("https://goerli.basescan.org/" ++ linkType ++ "/" ++ linkValue)
+        XRPLevm ->
+            Just ("https://explorer.testnet.xrplevm.org/" ++ linkType ++ "/" ++ linkValue)
 
         _ ->
             Nothing
